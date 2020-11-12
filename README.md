@@ -1,2 +1,9 @@
-# xcode-templates-snippets
-A collection of Xcode templates &amp; snippets.
+# Xcode Templates and Snippets
+
+A collection of Xcode templates and snippets.
+
+## Usage
+
+```
+make install
+```
