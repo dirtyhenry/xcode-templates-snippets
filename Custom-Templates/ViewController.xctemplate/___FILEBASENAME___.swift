@@ -1,6 +1,8 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
+    // MARK: - Creating an instance
+
     init() {
         super.init(nibName: nil, bundle: nil)
     }
@@ -10,8 +12,15 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
 
+    // MARK: - Subviews
+
+    // Add code here!
+
+    // MARK: - Lifecycle
+
     override func loadView() {
-        view = UIView.viewForAutoLayout()
+        view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = (navigationController != nil)
         view.backgroundColor = .white
 
         let helloWorld = Label(text: "Hello World", textStyle: .body2Ink)

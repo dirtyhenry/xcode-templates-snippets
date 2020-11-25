@@ -1,6 +1,6 @@
-# Xcode Templates and Snippets
+# Templates and Snippets
 
-A collection of Xcode templates and snippets.
+A collection of templates and snippets for Xcode (Swift development) and VS Code (JavaScript & TypeScript).
 
 ## Usage
 
