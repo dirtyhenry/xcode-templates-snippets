@@ -1,5 +1,8 @@
 import UIKit
 
+/// A view controller that ...
+///
+/// ![Screenshot](../img/___FILEBASENAMEASIDENTIFIER___Tests_testSnapshot.snap-en-828x1792.png)
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     // MARK: - Creating an instance
 
