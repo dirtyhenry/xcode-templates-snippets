@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tca-view</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Blocks
+import ComposableArchitecture
+import Model
+import SwiftUI
+
+struct &lt;#XXX#&gt;View: View {
+    let store: StoreOf&lt;&lt;#XXX#&gt;Feature&gt;
+
+  var body: some View {
+    WithViewStore(store, observe: { $0 }) { viewStore in
+      Text("TODO")
+    }
+  }
+}
+
+struct &lt;#XXX#&gt;View_Previews: PreviewProvider {
+  static var previews: some View {
+      &lt;#XXX#&gt;View(store: Store(
+        initialState: &lt;#XXX#&gt;Feature.State(myVar1: true, myVar2: false)
+	  ) { &lt;#XXX#&gt;Feature() }
+    )
+  }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EC75E03E-F8C2-46F7-9715-04F031082E8D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A scaffold of a view for the composable architecture</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TCA View</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

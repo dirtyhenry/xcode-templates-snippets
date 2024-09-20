@@ -5,6 +5,7 @@ echo:
 	echo $(current_dir)
 
 install:
-	ln -f -s "$(current_dir)/Custom-Templates" ~/Library/Developer/Xcode/Templates/File\ Templates/
-	ln -f -s "$(current_dir)/Custom-Snippets" ~/Library/Developer/Xcode/UserData/CodeSnippets
+	mkdir ~/Library/Developer/Xcode/Templates
+	ln -f -s "$(current_dir)/Xcode-Templates" ~/Library/Developer/Xcode/Templates
+	ln -f -s "$(current_dir)/Xcode-Snippets" ~/Library/Developer/Xcode/UserData/CodeSnippets
 	ln -f -s "$(current_dir)/VSCode-Snippets" ~/Library/Application\ Support/Code/User/snippets
